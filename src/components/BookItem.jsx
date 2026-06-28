@@ -29,7 +29,9 @@ function BookItem({ book }) {
 
         <p>
           <strong>Language:</strong>{" "}
-          {book.language ? book.language[0] : "N/A"}
+          {book.language
+            ? book.language[0].toUpperCase()
+            : "N/A"}
         </p>
       </div>
     </div>
