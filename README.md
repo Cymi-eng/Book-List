@@ -1,4 +1,4 @@
-# 📚 React List Rendering App
+# Book List Rendering App
 
 ## Project Overview
 
@@ -10,11 +10,9 @@ This project is a React application that displays a collection of books, allows 
 
 - Display a list of books
 - Render items dynamically using `.map()`
-- Component-based design
 - Responsive and clean user interface
 - Built with React Hooks (`useState`)
 
----
 
 ## Technologies Used
 
