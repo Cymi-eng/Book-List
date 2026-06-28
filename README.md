@@ -1,16 +1,115 @@
-# React + Vite
+# 📚 React List Rendering App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a React application that displays a collection of books, allows users to search new books. The application is built using reusable React components and follows a component-based architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Display a list of books
+- Render items dynamically using `.map()`
+- Component-based design
+- Responsive and clean user interface
+- Built with React Hooks (`useState`)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- CSS3
+- Vite
+- Github
+
+
+## Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── BookItem.jsx
+│   └── BookList.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/cymi-eng/book-list.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd book-list
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## How It Works
+
+The application stores book information in an array of objects using React state.
+
+Example:
+
+
+The `.map()` function loops through the array and renders a `BookItem` component for each book.
+
+## Learning Objectives
+
+This project demonstrates:
+
+- React Components
+- Props
+- State Management with `useState`
+- List Rendering using `.map()`
+- Event Handling
+- Conditional Rendering
+- Basic CSS Styling
+
+---
+
+## Future Improvements
+
+- Edit existing books
+- Search for books
+- Sort books alphabetically
+- Store data using Local Storage
+- Connect to a backend database
+
+---
+
+## Author
+
+**Ian Cymi**
+
+GitHub: https://github.com/cymi-eng
+
+---
+
+## License
+
+This project is under the MIT LICENSE
